@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dhruv Patel's — Portfolio</title>
+  <meta name="description" content="Dhruv Patel — Web Developer & DSA Enthusiast. B.Tech CSE student at SRM University. Contact: dhruvpateldrup@gmail.com" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container" id="page">
+    <header class="nav-fixed">
+      <div class="brand">
+        <div class="logo">DP</div>
+        <div>
+          <h1>Dhruv Patel</h1>
+          <p class="lead">B.Tech CSE @ SRM University — Web Developer & DSA Enthusiast</p>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button id="themeBtn" class="theme-toggle" title="Toggle theme">Toggle</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-left">
+          <h2>Hello — I'm Dhruv.</h2>
+          <p class="muted">Web developer and 3rd-year B.Tech Computer Science student at SRM University, Chennai. CGPA: <strong>9.50</strong>. Currently building web apps and learning Generative AI, Oracle APEX, and backend development. Internship experience: <strong>Hindalco Industries Ltd.</strong></p>
+
+          <div class="buttons">
+            <a class="btn" id="resumeLink" href="resume.pdf" download>Download Resume</a>
+            <a class="btn primary" href="mailto:dhruvpateldrup@gmail.com">Email me</a>
+            <a class="btn" href="https://www.linkedin.com/in/dhruv-patel-4126992b0/" target="_blank">LinkedIn</a>
+            <a class="btn" href="https://github.com/DhruvPatel814" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+        <div class="hero-right"></div>
+      </section>
+
+      <section id="projects">
+        <h3>Selected Projects</h3>
+        <div class="grid projects" id="projectsGrid"></div>
+      </section>
+
+      <div class="two-col">
+        <section id="experience">
+          <h3>Experience</h3>
+          <div class="experience-list">
+            <div class="card">
+              <strong>Web Developer Intern — Hindalco Industries Ltd. (Aditya Birla Group)</strong>
+              <div class="muted">July 2025 — Oracle APEX / SQL / PL-SQL — Digitalized employee & family data entry workflows for Birla Copper Township, Dahej.</div>
+            </div>
+
+            <div class="card">
+              <strong>Teaching — Community Connect (C programming for 10th std, Gujarat Board)</strong>
+              <div class="muted">Used SciTE editor and taught basics of C as part of community outreach.</div>
+            </div>
+          </div>
+        </section>
+
+        <aside>
+          <div class="card">
+            <h4>Skills & Tools</h4>
+            <div class="tech" id="skillsList"></div>
+
+            <h4 style="margin-top:12px">Education</h4>
+            <div class="muted">B.Tech, Computer Science & Engineering — SRM University, Chennai<br>3rd Year (Expected graduation: 2027) — Current CGPA: 9.50</div>
+          </div>
+        </aside>
+      </div>
+
+      <section id="contact">
+        <h3>Contact</h3>
+        <div class="card contact-card">
+          <div>
+            <div><strong>Email:</strong> <a href="mailto:dhruvpateldrup@gmail.com">dhruvpateldrup@gmail.com</a></div>
+            <div class="muted"><strong>Phone:</strong> +91 97913 40550</div>
+            <div class="muted"><strong>Location:</strong> Surat, Gujarat</div>
+          </div>
+
+          <div class="contact-links">
+            <a class="btn" href="https://github.com/DhruvPatel814" target="_blank">GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/dhruv-patel-4126992b0/" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      Made with ❤️ — Dhruv Patel • © <span id="year"></span>
+    </footer>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
